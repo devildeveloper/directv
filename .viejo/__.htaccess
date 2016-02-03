@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^([^/.]+)/?$ index.php?promo=$1 [L]
