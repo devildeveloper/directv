@@ -1857,3 +1857,13 @@ footer .txt-osiptel a:hover{
 	}
 
 }
+
+/*new*/
+sup{
+	font-size:15px;
+	font-weight: lighter;
+}
+a.white{
+	color:white;
+	text-decoration: none;
+}
