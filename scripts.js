@@ -23,6 +23,7 @@ jQuery(document).ready(function($) {
 					}
 				});
 				$(this).parent().children('input[type="text"]').val('Te estamos llamando...');
+				window.location.href="llamando.html";
 				// if($(this).parent().hasClass('llamanos-gratis')){
 				// 	$(this).parent().addClass('gracias');
 				// }

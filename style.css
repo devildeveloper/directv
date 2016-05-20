@@ -16,6 +16,14 @@ a{
 :focus {
 	outline: 0 !important;
 }
+.gracias {
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.5);
+  /*background: url("static/img/directv_brillo01.png") 0px 0px no-repeat !important;*/	
+  -webkit-box-shadow: 2px 2px 32px 1px rgba(72,137,242,1);
+-moz-box-shadow: 2px 2px 32px 1px rgba(72,137,242,1);
+box-shadow: 2px 2px 32px 1px rgba(72,137,242,1);
+}
 a:focus,
 a:hover{
 	text-decoration: none;
