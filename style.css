@@ -16,14 +16,6 @@ a{
 :focus {
 	outline: 0 !important;
 }
-.gracias {
-	border-radius: 5px;
-	background-color: rgba(0,0,0,0.5);
-  /*background: url("static/img/directv_brillo01.png") 0px 0px no-repeat !important;*/	
-  -webkit-box-shadow: 2px 2px 32px 1px rgba(72,137,242,1);
--moz-box-shadow: 2px 2px 32px 1px rgba(72,137,242,1);
-box-shadow: 2px 2px 32px 1px rgba(72,137,242,1);
-}
 a:focus,
 a:hover{
 	text-decoration: none;
@@ -701,6 +693,25 @@ footer .txt-osiptel a:hover{
     12% {opacity: 1;}
     53% {opacity: 0;}
     100% {opacity: 0;}
+}
+.gracias {
+	border-radius: 10px;
+	background:url(/static/img/directv_brillo01.png)14px 0 no-repeat;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	-webkit-animation: animacion-telf 3s infinite;
+	-moz-animation:    animacion-telf 3s infinite;
+	-o-animation:      animacion-telf 3s infinite;
+	animation:         animacion-telf 3s infinite;
+	float: left;
+}
+
+
+.grax{
+		background: url(/static/img/directv_brillo02.png) 14px 0 no-repeat;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	position: absolute;
 }
 .llamamos-gratis a .llame-on{
 	background: url(images/llame-on.png) 15px 0 no-repeat;
