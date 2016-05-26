@@ -20,10 +20,14 @@ jQuery(document).ready(function($) {
 					data:{
 						dst:200,
 						src:phone
+					},
+					complete:function(xhr,status){
+						console.log(status);
+						window.location.href="llamando.html";
 					}
 				});
 				$(this).parent().children('input[type="text"]').val('Te estamos llamando...');
-				window.location.href="llamando.html";
+			//	window.location.href="llamando.html";
 				// if($(this).parent().hasClass('llamanos-gratis')){
 				// 	$(this).parent().addClass('gracias');
 				// }
