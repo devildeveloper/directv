@@ -227,12 +227,27 @@ section{
 	text-align: left;
 }
 .banner .desde{
-	background: url(images/desde-desktop.png) 0 -2px no-repeat;
-	width: 150px;
-	height: 160px;
+	/*background: url(images/copa-america.png) 0 -2px no-repeat;*/
+	width: 120px;
+	height: 130px;
 	display: inline-block;
 	margin-left: 8px;
+	margin-top: 20px;
 	margin-bottom: 52px;
+}
+.text-america{
+	/*margin-bottom: 30px;*/
+	top: -27px;
+	position: relative;
+}
+.text-america .m1{font-size: 30px}
+.text-america .m2{font-size: 22px;}
+.msj-ca{
+	font-size: 19px;
+}
+.banner .desde img{
+	width: 100%;
+	height: 100%;
 }
 .mas-info{
 	margin-bottom: 10px;
@@ -596,7 +611,7 @@ footer .txt-osiptel a:hover{
 }
 .preciador .legales{
 	line-height: 1.2;
-	font-size: 12px;
+	font-size: 10px;
 }
 .llamame{
 	float: right;
@@ -1195,9 +1210,9 @@ footer .txt-osiptel a:hover{
 		max-width: auto;
 	}
 	.banner .desde {
-		background-image: url("images/desde-tablet.png");
-		width: 130px;
-		height: 128px;
+		/*background-image: url("images/copa-america.png");*/
+		width: 80px;
+		height: 80px;
 		background-position: 0 0;
 		margin-left: 6px;
 		margin-bottom: 73px;
@@ -1235,6 +1250,13 @@ footer .txt-osiptel a:hover{
 	.preciador .mensaje-1 .mas-grande {
 	    font-size: 20px;
 	}
+	.text-america{
+	/*margin-bottom: 30px;*/
+	top: 0px;
+	position: relative;
+	}
+	.text-america .m1{font-size: 16px}
+	.text-america .m2{font-size: 14px;}
 	.llamame{
 		margin-right: 0;
 		padding-top: 43px;
@@ -1368,9 +1390,10 @@ footer .txt-osiptel a:hover{
 	}
 	.llamamos-gratis a {
 	    display: block;
-	    width: 92px;
-	    height: 130px;
+	    width: 80px;
+	    height: 118px;
 	    position: relative;
+	    top:-10px;
 	    background-position: 0 0;
 	}
 	.legales-movil{
@@ -1515,10 +1538,10 @@ footer .txt-osiptel a:hover{
 		height: 280px;
 	}
 	.banner .desde{
-		background: url(images/desde-celu.png) 0 0 no-repeat;
+		/*background: url("images/copa-america.png") 0 0 no-repeat;*/
 		margin-left: 0;
-		width: 130px;
-		height: 128px;
+		width: 80px;
+		height: 80px;
 		margin-bottom: 8px;
 		position: relative;
 		left: -8px;
@@ -1544,7 +1567,7 @@ footer .txt-osiptel a:hover{
 		height: 61px;
 	}
 	.preciador .precio-3 .precio-descri{
-    	font-size: 25px;
+    	font-size: 20px;
     }
     .preciador .precio-3 .precio-descri .descri-chico {
 	    font-size: 20px;
@@ -1638,6 +1661,15 @@ footer .txt-osiptel a:hover{
 	.modulos .modu-content .tag{
 		display: none;
 	}
+	/*Copa america 700 */
+	.text-america{
+	/*margin-bottom: 30px;*/
+	top: 0px;
+	position: relative;
+	}
+	.text-america .m1{font-size: 16px}
+	.text-america .m2{font-size: 14px;}
+	/****/
 	footer{}
 	footer .col-fix-ancho-10{
 		padding: 0;
@@ -1671,7 +1703,7 @@ footer .txt-osiptel a:hover{
 	}
 	.mas-celu{}
 	.mas-celu a.suscribete{
-		font-size: 18px;
+		font-size: 14px;
 		padding: 2px 6px 4px;
 		border-radius: 3px;
 		margin-left: 15px;
@@ -1679,7 +1711,7 @@ footer .txt-osiptel a:hover{
 	}
 	.mas-celu span.quiero-celu{
 		text-transform: uppercase;
-		font-size: 16px;
+		font-size: 12px;
 	}
 	.condi-celu{
 		margin: 0;
