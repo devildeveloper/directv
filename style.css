@@ -228,22 +228,65 @@ section{
 }
 .banner .desde{
 	/*background: url(images/copa-america.png) 0 -2px no-repeat;*/
-	width: 120px;
-	height: 130px;
+	width: 65px;
+	height: 92px;
+	display: inline-block;
+	margin-left: 8px;
+	margin-top: 20px;
+	/*margin-bottom: 52px;*/
+	position: relative;
+	top: 40px;
+}
+.banner .Edesde{
+	/*background: url(images/copa-america.png) 0 -2px no-repeat;*/
+	width: 65px;
+	height: 92px;
 	display: inline-block;
 	margin-left: 8px;
 	margin-top: 20px;
 	margin-bottom: 52px;
+	position: relative;
+	top: 20px;
+}.banner .Edesde img{
+	width: 100%;
+	height: 100%;
 }
 .text-america{
-	/*margin-bottom: 30px;*/
-	top: -27px;
+	/*margin-bottom: 30px;
+	top: -25px;*/
+	bottom: 45px;
+	left: 75px;
 	position: relative;
+	/*margin-bottom: 30px;*/
 }
-.text-america .m1{font-size: 30px}
-.text-america .m2{font-size: 22px;}
+.text-Euro{
+	/*margin-bottom: 30px;
+	top: -25px;
+	bottom: 45px;
+	left: 75px;*/
+	position: relative;
+	margin-bottom: 15px;
+}
+.text-Euro .m1{font-size: 28px}
+.text-Euro .m2{font-size: 22px;}
+.text-america .m1{font-size: 20px}
+.text-america .m2{font-size: 18px;}
 .msj-ca{
 	font-size: 19px;
+	position: relative;
+	left: 12px;
+}
+.msj-ca-1{
+	font-size: 19px;
+	position: relative;
+	left: 12px;
+	bottom: 15px;
+}
+.msj-ca-2{
+	font-size: 19px;
+	position: relative;
+	left: 12px;
+	bottom: 26px;
 }
 .banner .desde img{
 	width: 100%;
@@ -551,19 +594,19 @@ footer .txt-osiptel a:hover{
 .preciador .precio{
 	overflow: hidden;
 	line-height: 1;
-	margin-bottom: 12px;
+	margin-bottom: 28px;
 }
 .preciador .precio-1{
 	float: left;
-	padding-top: 24px;
+	padding-top: 34px;
 }
 .preciador .precio-1 .txt-blanco{
-	font-size: 28px;
+	font-size: 34px;
 	text-transform: uppercase;
 	font-weight: 500;
 }
 .preciador .precio-1 .soles{
-	font-size: 73px;
+	font-size: 40px;
 	color: #faa61a;
 	font-weight: 500;
 	margin-right: 10px;
@@ -762,7 +805,7 @@ footer .txt-osiptel a:hover{
 .popup-alf{
 	width: 570px;
 	height: 390px;
-	background: #000 url(images/alf.jpg)0 0 no-repeat;
+	background: #000 url(images/popup_chica.jpg)0 0 no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	border: 2px solid #6effff;
@@ -1220,6 +1263,20 @@ footer .txt-osiptel a:hover{
 	.banner {
 	    height: 371px;
 	}
+	.banner .Edesde{
+		/*background: url("images/copa-america.png") 0 0 no-repeat;*/
+		margin-left: 0;
+		width: 60px;
+		height: 60px;
+		margin-bottom: 8px;
+		position: relative;
+		top: 0px;
+		
+	}
+	.text-Euro{
+		margin-bottom: 70px;
+    position: relative;
+	}
 	.preciador::before{
 		left: -14px;
 		height: 95px;
@@ -1249,14 +1306,18 @@ footer .txt-osiptel a:hover{
 	.preciador .mensaje-1,
 	.preciador .mensaje-1 .mas-grande {
 	    font-size: 20px;
+	    display: none;
 	}
 	.text-america{
-	/*margin-bottom: 30px;*/
-	top: 0px;
-	position: relative;
+	/*margin-bottom: 30px;
+	top: 0px;*/
+	bottom: 105px;
+    left: 90px;
+    position: relative;
 	}
 	.text-america .m1{font-size: 16px}
 	.text-america .m2{font-size: 14px;}
+
 	.llamame{
 		margin-right: 0;
 		padding-top: 43px;
@@ -1385,7 +1446,7 @@ footer .txt-osiptel a:hover{
 	.llamamos-gratis{
 		right: auto;
 		left: -11px;
-		top: 94px;
+		top: 115px;
 	    position: absolute;
 	}
 	.llamamos-gratis a {
@@ -1393,7 +1454,7 @@ footer .txt-osiptel a:hover{
 	    width: 80px;
 	    height: 118px;
 	    position: relative;
-	    top:-10px;
+	    top:20px;
 	    background-position: 0 0;
 	}
 	.legales-movil{
@@ -1546,6 +1607,26 @@ footer .txt-osiptel a:hover{
 		position: relative;
 		left: -8px;
 	}
+	.banner .Edesde{
+		/*background: url("images/copa-america.png") 0 0 no-repeat;*/
+		margin-left: 0;
+		width: 60px;
+		height: 60px;
+		margin-bottom: 8px;
+		position: relative;
+		top: 0px;
+		
+	}
+
+	.text-Euro{
+	/*margin-bottom: 30px;
+	top: 0px;*/
+	
+    
+    position: relative;
+	}
+	.text-Euro .m1{font-size: 16px}
+	.text-Euro .m2{font-size: 14px;}
 	.preciador:before{
 		display: none;
 	}
@@ -1556,9 +1637,14 @@ footer .txt-osiptel a:hover{
 	    padding-top: 20px;
 	}
 	.preciador .precio-1 .soles{
-		font-size: 45px;
+		font-size: 27px;
 		margin-right: 0;
 	}
+	.preciador .precio-1 .txt-blanco{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
 	.preciador .precio-2{
 		font-size: 71px;
 	}
@@ -1664,11 +1750,11 @@ footer .txt-osiptel a:hover{
 	/*Copa america 700 */
 	.text-america{
 	/*margin-bottom: 30px;*/
-	top: 0px;
+	bottom: 42px;
 	position: relative;
 	}
-	.text-america .m1{font-size: 16px}
-	.text-america .m2{font-size: 14px;}
+	.text-america .m1{font-size: 10px}
+	.text-america .m2{font-size: 9px;}
 	/****/
 	footer{}
 	footer .col-fix-ancho-10{
