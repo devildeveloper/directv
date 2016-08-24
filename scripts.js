@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
 				// 	$(this).parent().addClass('gracias');
 				// }
 			}else{
-				alert('Tu número debe tener 9 dígitos.');
+				alert('Ingrese 9 dígitos o agregue el código su ciudad.');
 			}
 		}else{
 			alert("Debes aceptar los terminos y condiciones");
