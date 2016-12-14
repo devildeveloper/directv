@@ -183,7 +183,7 @@ nav ul.nav > li > a{
 	color: #ccc;
 	/*width: 184px;*/
 	/*padding: 13px 46px 13px 47px;*/
-	padding: 13px 100px;
+	padding: 13px 90px;
 }
 nav ul.nav > li a:focus,
 nav ul.nav > li a:hover{
@@ -1283,7 +1283,7 @@ footer .txt-osiptel a:hover{
 	}
 	nav ul.nav > li > a {
 		font-size: 16px;
-		padding: 13px 14px;
+		padding: 13px 45px;
 	}
 	section{
 		margin-top: 162px;
@@ -1983,6 +1983,9 @@ footer .txt-osiptel a:hover{
 	}
 	.new-p{
 		width: auto !important;
+	}
+	.res-precio{
+		margin-top: 0 !important;
 	}
 
 }
