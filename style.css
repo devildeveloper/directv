@@ -4,6 +4,21 @@ body{
 	padding-right: 0 !important;
 	overflow: visible !important;
 }
+.bnone{
+	padding: 1rem 15rem;
+}
+.legales-new{
+	margin: 0 !important;
+	background-image: none;
+	padding: 1rem 11rem;
+	min-height: auto;
+	font-size: 1.2rem;
+}
+.num{
+    position: absolute;
+    font-size: 1.5rem;
+    right: 2rem;
+}
 a{
 	color: #00abe3;
 	-webkit-transition: all .3s ease;
@@ -664,6 +679,7 @@ footer .txt-osiptel a:hover{
 }
 .llamame .plan-nombre{
 	/*height: 150px;*/
+	position:relative;
 	overflow: hidden;
 	margin-bottom: 16px;
 }
