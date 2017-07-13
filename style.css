@@ -2090,7 +2090,9 @@ footer .txt-osiptel a:hover{
 }
 
 @media (min-width: 281px) and (max-width: 767px) {
-
+	.oferta{
+		display: none;
+	}
 	.banner-celu{
 		background: none !important;
 	}
